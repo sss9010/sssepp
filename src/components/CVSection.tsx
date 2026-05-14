@@ -1,6 +1,6 @@
 import AnimatedSection from "./AnimatedSection";
 import { education, experience, awards, personal } from "@/data/content";
-import { Download, GraduationCap, Briefcase, Award } from "lucide-react";
+import { GraduationCap, Briefcase, Award } from "lucide-react";
 
 function TimelineItem({
   period,
@@ -61,14 +61,6 @@ export default function CVSection() {
           <p className="text-slate-500 dark:text-slate-400 max-w-xl mb-8">
             Multi-institutional background spanning Estonia, Sweden, Germany, and the United States.
           </p>
-          <a
-            href={personal.cvPath}
-            download="cv_sepp.pdf"
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-accent-600 hover:bg-accent-700 active:scale-[0.97] text-white text-sm font-medium transition-all duration-200 shadow-md shadow-accent-600/20 hover:shadow-lg hover:shadow-accent-600/25 mb-16"
-          >
-            <Download size={16} />
-            Download Full CV (PDF)
-          </a>
         </AnimatedSection>
 
         <div className="grid lg:grid-cols-2 gap-16">

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Download, Microscope, ArrowDown } from "lucide-react";
+import { Mail, Microscope, ArrowDown } from "lucide-react";
 import { personal } from "@/data/content";
 
 export default function Hero() {
@@ -54,14 +54,6 @@ export default function Hero() {
             >
               <Microscope size={16} />
               View Research
-            </a>
-            <a
-              href={personal.cvPath}
-              download="cv_sepp.pdf"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-transparent text-slate-700 dark:text-slate-300 text-sm font-medium hover:border-slate-300 dark:hover:border-slate-600 hover:bg-slate-50 dark:hover:bg-slate-800/40 active:scale-[0.97] transition-all duration-200"
-            >
-              <Download size={16} />
-              Download CV
             </a>
             <a
               href={`mailto:${personal.email}`}
