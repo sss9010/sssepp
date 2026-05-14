@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    @apply bg-accent-100 text-accent-900;
+  }
+
+  :root {
+    --gradient-start: theme('colors.accent.50');
+    --gradient-end: theme('colors.white');
+  }
+
+  .dark {
+    --gradient-start: theme('colors.accent.950');
+    --gradient-end: theme('colors.slate.950');
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .section-heading {
+    @apply text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 dark:text-white;
+  }
+
+  .section-label {
+    @apply text-xs font-semibold tracking-widest uppercase text-accent-600 dark:text-accent-400;
+  }
+}
