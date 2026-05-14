@@ -6,8 +6,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
-  // Uncomment and set your repo name if deploying to a project page:
-  // basePath: "/your-repo-name",
+  basePath: "/sssepp",
 };
 
 export default nextConfig;
