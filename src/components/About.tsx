@@ -74,9 +74,6 @@ export default function About() {
                       <p className="text-sm font-medium text-slate-900 dark:text-white leading-snug">{edu.degree}</p>
                       <p className="text-sm text-slate-500 dark:text-slate-400">
                         {edu.institution} · {edu.period}
-                        {edu.gpa && (
-                          <span className="ml-1 text-xs text-slate-400 dark:text-slate-500">GPA {edu.gpa}</span>
-                        )}
                       </p>
                     </div>
                   </div>
