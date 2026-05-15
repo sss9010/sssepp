@@ -48,7 +48,7 @@ export default function Research() {
                   </p>
 
                   <div className="flex flex-wrap gap-1.5 mb-4">
-                    {project.methods.map((m) => (
+                    {(project.methods ?? []).map((m) => (
                       <span
                         key={m}
                         className="px-2 py-0.5 rounded-md text-xs bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 border border-slate-200 dark:border-slate-700"

@@ -4,14 +4,12 @@ export const personal = {
   title: "PhD Candidate in Plant Breeding & Genetics",
   institution: "Cornell University",
   department: "School of Integrative Plant Science",
-  advisor: "Prof. Mark E. Sorrells",
   location: "Ithaca, NY",
   email: "sss322@cornell.edu",
-  phone: "+1 858 284 7564",
   tagline:
     "Bridging genomics, phenomics, and computational approaches to develop resilient cereal crops for sustainable agriculture and a changing climate.",
   bio: [
-    "I am a PhD candidate in Plant Breeding and Genetics at Cornell University, working under Prof. Mark E. Sorrells. My research focuses on developing genomic and phenomic tools to accelerate barley breeding for malting quality and abiotic stress resistance. I administer the Cornell winter malting barley breeding program, managing everything from field phenotyping to genomic prediction pipelines.",
+    "I am a PhD candidate in Plant Breeding and Genetics at Cornell University. My research focuses on developing genomic and phenomic tools to accelerate barley breeding for malting quality and abiotic stress resistance. I administer the Cornell winter malting barley breeding program, managing everything from field phenotyping to genomic prediction pipelines.",
     "My interdisciplinary approach combines traditional plant breeding with modern computational methods — genome-wide association studies (GWAS), genomic selection, and UAV-based high-throughput phenotyping. Prior to Cornell, I worked as a Senior Research Agronomist at the Estonian Crop Research Institute, running HTP canopy phenotyping experiments for climate resilience across European projects.",
   ],
   social: {
@@ -35,6 +33,7 @@ export const researchInterests = [
   "UAV Remote Sensing",
   "Bioinformatics",
   "Geospatial Analysis",
+  "Plant Intellectual Property",
 ];
 
 export const skills = [
@@ -51,14 +50,6 @@ export const skills = [
 ];
 
 export const researchProjects = [
-  {
-    title: "LakeEffect: Winter Malting Barley for New York",
-    description:
-      "Led the development and registration of LakeEffect, a winter malting barley variety adapted to New York conditions. Combines superior malting quality with strong winter hardiness, offering Northeast craft brewers a locally grown alternative.",
-    methods: ["Genomic Selection", "Malting Quality Analysis", "Variety Development", "Multi-environment Trials"],
-    links: [{ label: "Paper (In Review)", href: "#publications" }],
-    status: "submitted",
-  },
   {
     title: "GWAS for Scald Resistance in Multiparent Barley",
     description:
@@ -79,10 +70,63 @@ export const researchProjects = [
     title: "UAV Phenotyping for Climate Resilience",
     description:
       "High-throughput crop canopy phenotyping using UAV platforms to characterise barley responses to climate-induced water regime changes. Data contributed to the international NoBalWheat and SusCrop projects.",
-    methods: ["UAV Remote Sensing", "QGIS", "Time-series Analysis", "Canopy Reflectance"],
-    links: [],
-    status: "ongoing",
+    links: [{ label: "doi", href: "https://dspace.emu.ee/bitstream/10492/7044/4/2021_2_sepp.pdf" }],
+    status: "published",
   },
+];
+
+
+export const education = [
+  {
+    degree: "PhD in Plant Breeding and Genetics",
+    institution: "Cornell University",
+    location: "Ithaca, NY",
+    period: "2022 – Aug 2026",
+    concentration: "Plant Breeding and Computational Genetics; minor in Geospatial Applications",
+    thesis:
+      "Genomic and Phenomic Approaches for Barley Breeding for Malting Quality and Abiotic Stress Resistance",
+    awards: [],
+  },
+  {
+    degree: "M.Sc. in Plant Biology",
+    institution: "Swedish University of Agricultural Sciences",
+    location: "Uppsala, Sweden",
+    period: "2019-2022",
+    concentration: "",
+    thesis:
+      "Identification of New Loci and Candidate Genes for Resistance to Sclerotinia Stem Rot in B. napus with GWAS",
+    advisor: "",
+    awards: [],
+  },
+  {
+    degree: "M.Sc. in Agriculture",
+    institution: "Estonian University of Life Sciences",
+    location: "Tartu, Estonia",
+    period: "2019-2021",
+    concentration: "",
+    thesis:
+      "Adaption of Estonian Grown Barley Varieties to Climate Change Induced Water Regime Changes",
+    advisor: "",
+  },
+  {
+    degree: "B.Sc. in Agriculture",
+    institution: "Estonian University of Life Sciences",
+    location: "Tartu, Estonia",
+    period: "2016-2019",
+    concentration: "",
+    thesis:
+      "Wheat Flag Leaf Wheat in Organic and Conventional Systems and the Effect on Yield and Quality",
+    advisor: "",
+  },
+];
+
+
+export const awards = [
+  "Kristjan Jaak Scholarship for Exchange Studies",
+  "Organic Farming Research Centre Scholarship",
+  "Veski Mati Scholarship",
+  "Rotalia Foundation Scholarship",
+  "ERASMUS for Young Entrepreneurs Scholarship (Bioinnovation Hackathon)",
 ];
 
 export const publications = [
@@ -96,7 +140,6 @@ export const publications = [
     volume: "",
     doi: "10.1101/2026.03.12.711358",
     type: "preprint",
-    highlight: true,
   },
   {
     id: 3,
@@ -107,7 +150,6 @@ export const publications = [
     volume: "",
     doi: "",
     type: "in-review",
-    highlight: true,
   },
   {
     id: 2,
@@ -120,7 +162,6 @@ export const publications = [
     volume: "",
     doi: "10.1002/pei3.70092",
     type: "journal",
-    highlight: false,
   },
   {
     id: 1,
@@ -131,63 +172,6 @@ export const publications = [
     volume: "",
     doi: "10.15159/jas.21.29",
     type: "journal",
-    highlight: false,
-  },
-];
-
-export const education = [
-  {
-    degree: "PhD in Plant Breeding and Genetics",
-    institution: "Cornell University",
-    location: "Ithaca, NY",
-    period: "2022 – Aug 2026 (expected)",
-    gpa: null,
-    concentration: "Plant Breeding and Computational Genetics; minor in Geospatial Applications",
-    thesis:
-      "Genomic and Phenomic Approaches for Barley Breeding for Malting Quality and Abiotic Stress Resistance",
-    advisor: "Prof. Mark E. Sorrells",
-    awards: [],
-  },
-  {
-    degree: "M.Sc. in Plant Biology",
-    institution: "Swedish University of Agricultural Sciences",
-    location: "Uppsala, Sweden",
-    period: "2022",
-    gpa: "5.00/5.00",
-    concentration: "",
-    thesis:
-      "Identification of New Loci and Candidate Genes for Resistance to Sclerotinia Stem Rot in B. napus with GWAS",
-    advisor: "",
-    awards: [],
-  },
-  {
-    degree: "M.Sc. in Agriculture",
-    institution: "Estonian University of Life Sciences",
-    location: "Tartu, Estonia",
-    period: "2021",
-    gpa: "4.90/5.00, cum laude",
-    concentration: "",
-    thesis:
-      "Adaption of Estonian Grown Barley Varieties to Climate Change Induced Water Regime Changes",
-    advisor: "",
-    awards: ["Kristjan Jaak Scholarship for Exchange Studies"],
-  },
-  {
-    degree: "B.Sc. in Agriculture",
-    institution: "Estonian University of Life Sciences",
-    location: "Tartu, Estonia",
-    period: "2019",
-    gpa: "4.74/5.00, cum laude",
-    concentration: "",
-    thesis:
-      "Wheat Flag Leaf Wheat in Organic and Conventional Systems and the Effect on Yield and Quality",
-    advisor: "",
-    awards: [
-      "Organic Farming Research Centre Scholarship",
-      "Veski Mati Scholarship",
-      "Rotalia Foundation Scholarship",
-      "ERASMUS for Young Entrepreneurs Scholarship",
-    ],
   },
 ];
 
@@ -216,12 +200,4 @@ export const experience = [
     description:
       "Operated biogas-reactors running on silage. Ran routine chemical analysis for lab bioreactors and local biogas plants.",
   },
-];
-
-export const awards = [
-  "Kristjan Jaak Scholarship for Exchange Studies",
-  "Organic Farming Research Centre Scholarship",
-  "Veski Mati Scholarship",
-  "Rotalia Foundation Scholarship",
-  "ERASMUS for Young Entrepreneurs Scholarship (Bioinnovation Hackathon)",
 ];
