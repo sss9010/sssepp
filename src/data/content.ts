@@ -40,8 +40,8 @@ export const skills = [
   "Python",
   "R",
   "QGIS",
-  "Git",
-  "Linux",
+  "GitHub",
+  "ClaudeCode",
   "Genomic Selection",
   "GWAS",
   "Statistical Modelling",
@@ -53,23 +53,23 @@ export const researchProjects = [
   {
     title: "GWAS for Scald Resistance in Multiparent Barley",
     description:
-      "Genome-wide association analysis of resistance to scald (Rhynchosporium commune) in an adapted multiparent winter malting barley population. Identifies novel loci for durable disease resistance to guide marker-assisted selection.",
-    methods: ["GWAS", "Multiparent Populations", "Disease Phenotyping", "Genomic Prediction"],
+      "Genome-wide association analysis of resistance to scald (Rhynchosporium commune) in an adapted multiparent winter malting barley population.",
+    methods: ["GWAS", "Plant Pathology", "Disease Phenotyping"],
     links: [{ label: "bioRxiv", href: "https://doi.org/10.1101/2026.03.12.711358" }],
     status: "preprint",
   },
   {
     title: "Sclerotinia Resistance & Microbiome in Canola",
     description:
-      "Identified new genomic loci for sclerotinia stem rot resistance and chlorophyll stability in Brassica napus by integrating GWAS with rhizosphere microbiome data, revealing genotype–microbiome interactions.",
-    methods: ["GWAS", "Microbiome Analysis", "Canola Phenotyping", "Multi-omics Integration"],
+      "Identified new genomic loci for sclerotinia stem rot resistance and chlorophyll stability in Brassica napus by integrating GWAS, revealing genotype–microbiome interactions.",
+    methods: ["GWAS", "Microbiome Analysis", "Plant Pathology", "Multi-omics Integration"],
     links: [{ label: "doi:10.1002/pei3.70092", href: "https://doi.org/10.1002/pei3.70092" }],
     status: "published",
   },
   {
-    title: "UAV Phenotyping for Climate Resilience",
+    title: "Barley for Climate Resilience",
     description:
-      "High-throughput crop canopy phenotyping using UAV platforms to characterise barley responses to climate-induced water regime changes. Data contributed to the international NoBalWheat and SusCrop projects.",
+      "Novel high-throughput phenotyping platforms to characterise barley responses to climate-induced water regime changes. Data contributed to the international NoBalWheat and SusCrop projects.",
     links: [{ label: "doi", href: "https://dspace.emu.ee/bitstream/10492/7044/4/2021_2_sepp.pdf" }],
     status: "published",
   },
@@ -85,7 +85,6 @@ export const education = [
     concentration: "Plant Breeding and Computational Genetics; minor in Geospatial Applications",
     thesis:
       "Genomic and Phenomic Approaches for Barley Breeding for Malting Quality and Abiotic Stress Resistance",
-    awards: [],
   },
   {
     degree: "M.Sc. in Plant Biology",
@@ -95,8 +94,6 @@ export const education = [
     concentration: "",
     thesis:
       "Identification of New Loci and Candidate Genes for Resistance to Sclerotinia Stem Rot in B. napus with GWAS",
-    advisor: "",
-    awards: [],
   },
   {
     degree: "M.Sc. in Agriculture",
@@ -106,7 +103,6 @@ export const education = [
     concentration: "",
     thesis:
       "Adaption of Estonian Grown Barley Varieties to Climate Change Induced Water Regime Changes",
-    advisor: "",
   },
   {
     degree: "B.Sc. in Agriculture",
