@@ -9,7 +9,7 @@ export const personal = {
   tagline:
     "Bridging genomics, phenomics, and computational approaches to develop resilient cereal crops for sustainable agriculture and a changing climate.",
   bio: [
-    "I am a PhD candidate in Plant Breeding and Genetics at Cornell University. My research focuses on developing genomic and phenomic tools to accelerate barley breeding for malting quality and abiotic stress resistance. I administer the Cornell winter malting barley breeding program, managing everything from field phenotyping to genomic prediction pipelines.",
+    "I am a PhD candidate in Plant Breeding and Genetics at Cornell University. My research focuses on developing genomic and phenomic tools to accelerate barley breeding for malting quality and abiotic stress resistance. I manage the Cornell winter malting barley breeding program, managing everything from field phenotyping to genomic prediction pipelines.",
     "My interdisciplinary approach combines traditional plant breeding with modern computational methods — genome-wide association studies (GWAS), genomic selection, and UAV-based high-throughput phenotyping. Prior to Cornell, I worked as a Senior Research Agronomist at the Estonian Crop Research Institute, running HTP canopy phenotyping experiments for climate resilience across European projects.",
   ],
   social: {
