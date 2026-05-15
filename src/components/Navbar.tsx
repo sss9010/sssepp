@@ -6,10 +6,8 @@ import ThemeToggle from "./ThemeToggle";
 import { personal } from "@/data/content";
 
 const navLinks = [
-  { href: "#about", label: "About" },
   { href: "#research", label: "Research" },
   { href: "#publications", label: "Publications" },
-  { href: "#cv", label: "CV" },
 ];
 
 export default function Navbar() {
