@@ -81,9 +81,9 @@ export default function CVSection() {
                   period={edu.period}
                   title={edu.degree}
                   subtitle={edu.institution}
-                  meta={[edu.location, edu.gpa ? `GPA: ${edu.gpa}` : ""].filter(Boolean).join(" · ")}
+                  meta={edu.location}
                   description={edu.thesis ? `Thesis: "${edu.thesis}"` : undefined}
-                  awards={edu.awards}
+                  awards={"awards" in edu ? (edu as { awards: string[] }).awards : undefined}
                 />
               ))}
             </div>
