@@ -61,7 +61,7 @@ export const researchProjects = [
   {
     title: "Sclerotinia Resistance & Microbiome in Canola",
     description:
-      "Identified new genomic loci for sclerotinia stem rot resistance and chlorophyll stability in Brassica napus by integrating GWAS, revealing genotype–microbiome interactions.",
+      "M.Sc Project about identifiying new genomic loci for sclerotinia stem rot resistance and chlorophyll stability in Brassica napus by integrating GWAS, revealing genotype–microbiome interactions.",
     methods: ["GWAS", "Microbiome Analysis", "Plant Pathology", "Multi-omics Integration"],
     links: [{ label: "doi:10.1002/pei3.70092", href: "https://doi.org/10.1002/pei3.70092" }],
     status: "published",
@@ -69,7 +69,7 @@ export const researchProjects = [
   {
     title: "Barley for Climate Resilience",
     description:
-      "Novel high-throughput phenotyping platforms to characterise barley responses to climate-induced water regime changes. Data contributed to the international NoBalWheat and SusCrop projects.",
+      "M.Sc project about novel high-throughput phenotyping platforms to characterise barley responses to climate-induced water regime changes.",
     links: [{ label: "doi", href: "https://dspace.emu.ee/bitstream/10492/7044/4/2021_2_sepp.pdf" }],
     status: "published",
   },
@@ -171,29 +171,3 @@ export const publications = [
   },
 ];
 
-export const experience = [
-  {
-    role: "Senior Research Agronomist",
-    organization: "Estonian Crop Research Institute",
-    location: "Jõgeva, Estonia",
-    period: "June 2020 – Aug 2022",
-    description:
-      "Managed phenotyping and supported management of the barley breeding program. Ran HTP crop canopy phenotyping experiments for climate resilience, providing data for the NoBalWheat and SusCrop international projects.",
-  },
-  {
-    role: "Development Team Member",
-    organization: "Estonian Ministry of Agriculture and Rural Life",
-    location: "Tallinn, Estonia",
-    period: "Sep 2018 – Nov 2018",
-    description:
-      "Participated in drafting the national Agricultural Crops 2030 innovation plan. Researched, presented, and led the cereal sector innovation discussion group.",
-  },
-  {
-    role: "Lab Intern",
-    organization: "Ulm University, Kazda Lab",
-    location: "Ulm, Germany",
-    period: "June – Aug 2018",
-    description:
-      "Operated biogas-reactors running on silage. Ran routine chemical analysis for lab bioreactors and local biogas plants.",
-  },
-];
