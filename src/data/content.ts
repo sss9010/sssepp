@@ -51,6 +51,25 @@ export const skills = [
 
 export const researchProjects = [
   {
+    title: "NY Winter Malting Barley — Genomic & Phenomic Prediction Pipeline",
+    description:
+      "Reproducible R pipeline predicting agronomic and malt quality traits in the NY WMB breeding program, combining UAV multispectral imagery, Barley 50K SNP genotype data, and multi-year field phenotypes across five environments (2021–2025).",
+    methods: ["Phenomic Prediction", "GBLUP", "Multi-trait GP", "Deep Learning", "UAV Remote Sensing"],
+    links: [{ label: "GitHub", href: "https://github.com/sss9010/Predicting_WMB_for_NY" }],
+    status: "ongoing",
+  },
+  {
+    title: "DNN-Derived Synthetic Vegetation Index",
+    description:
+      "A deep neural network with a spectral bottleneck (5 bands → Synthetic VI → trait) learns a data-optimised vegetation index per trait, outperforming fixed hand-crafted indices like NDVI under leave-one-environment-out cross-validation.",
+    methods: ["Deep Learning", "Spectral Analysis", "UAV Remote Sensing", "torch (R)"],
+    links: [
+      { label: "GitHub", href: "https://github.com/sss9010/dnn-synthetic-vi" },
+      { label: "Report", href: "https://sss9010.github.io/dnn-synthetic-vi/DNN_Synthetic_VI.html" },
+    ],
+    status: "ongoing",
+  },
+  {
     title: "GWAS for Scald Resistance in Multiparent Barley",
     description:
       "Genome-wide association analysis of resistance to scald (Rhynchosporium commune) in an adapted multiparent winter malting barley population.",
