@@ -13,18 +13,18 @@ const icons = [FlaskConical, Dna, Leaf, Satellite];
 
 export default function Research() {
   return (
-    <section id="research" className="py-28 px-6">
-      <div className="max-w-5xl mx-auto">
+    <section id="research" className="py-16 px-6">
+      <div className="max-w-2xl mx-auto">
         <AnimatedSection>
           <p className="section-label mb-3">Research</p>
           <h2 className="section-heading mb-4">Projects &amp; Focus Areas</h2>
-          <p className="text-slate-500 dark:text-slate-400 max-w-xl mb-16">
+          <p className="text-slate-500 dark:text-slate-400 mb-12">
             My work spans cereal genomics, field phenotyping, and computational breeding, with a focus on
             practical variety improvement for Northeast U.S. agriculture.
           </p>
         </AnimatedSection>
 
-        <div className="grid sm:grid-cols-2 gap-6">
+        <div className="grid sm:grid-cols-2 gap-5">
           {researchProjects.map((project, i) => {
             const Icon = icons[i % icons.length];
             const status = statusLabel[project.status] ?? statusLabel.ongoing;

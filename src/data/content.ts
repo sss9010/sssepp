@@ -23,7 +23,8 @@ export const personal = {
 
 export const researchInterests = [
   "Genomic Prediction",
-  "GWAS",
+  "Plant Intellectual Property",
+"Applied ML and NN approaches",
   "Malting Barley Breeding",
   "High-Throughput Phenotyping",
   "Climate Resilience",
@@ -32,7 +33,7 @@ export const researchInterests = [
   "UAV Remote Sensing",
   "Bioinformatics",
   "Geospatial Analysis",
-  "Plant Intellectual Property",
+
 ];
 
 export const skills = [
@@ -41,10 +42,12 @@ export const skills = [
   "QGIS",
   "GitHub",
   "ClaudeCode",
+  "Novel Phenotyping approaches",
   "Genomic Selection",
   "GWAS",
   "Statistical Modelling",
-  "Field Phenotyping",
+  "Field experiments",
+
 ];
 
 export const researchProjects = [
@@ -52,7 +55,7 @@ export const researchProjects = [
     title: "NY Winter Malting Barley — Genomic & Phenomic Prediction Pipeline",
     description:
       "Reproducible R pipeline predicting agronomic and malt quality traits in the NY WMB breeding program, combining UAV multispectral imagery, Barley 50K SNP genotype data, and multi-year field phenotypes across five environments (2021–2025).",
-    methods: ["Phenomic Prediction", "GBLUP", "Multi-trait GP", "Deep Learning", "UAV Remote Sensing"],
+    methods: ["Phenomic Prediction", "Genomic Prediction","GBLUP", "Multi-trait GP", "UAV Remote Sensing"],
     links: [{ label: "GitHub", href: "https://github.com/sss9010/Predicting_WMB_for_NY" }],
     status: "ongoing",
   },

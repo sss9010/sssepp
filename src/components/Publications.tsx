@@ -19,12 +19,12 @@ export default function Publications() {
   const visible = filter === "All" ? publications : publications.filter((p) => String(p.year) === filter);
 
   return (
-    <section id="publications" className="py-28 px-6 bg-slate-50 dark:bg-slate-900/40">
-      <div className="max-w-5xl mx-auto">
+    <section id="publications" className="py-16 px-6">
+      <div className="max-w-2xl mx-auto">
         <AnimatedSection>
           <p className="section-label mb-3">Publications</p>
           <h2 className="section-heading mb-4">Research Output</h2>
-          <p className="text-slate-500 dark:text-slate-400 max-w-xl mb-10">
+          <p className="text-slate-500 dark:text-slate-400 mb-10">
             Peer-reviewed articles, preprints, and registered varieties in plant genomics and breeding.
           </p>
         </AnimatedSection>

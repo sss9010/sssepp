@@ -31,7 +31,7 @@ const socials = [
 export default function Footer() {
   return (
     <footer className="border-t border-slate-200 dark:border-slate-800 py-12 px-6 bg-slate-50 dark:bg-slate-900/40">
-      <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
+      <div className="max-w-2xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
         <div>
           <p className="font-semibold text-slate-900 dark:text-white text-sm">{personal.name}</p>
           <p className="text-xs text-slate-500 dark:text-slate-500 mt-0.5">
