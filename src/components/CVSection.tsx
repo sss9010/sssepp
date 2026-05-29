@@ -1,6 +1,6 @@
 import AnimatedSection from "./AnimatedSection";
-import { education, experience, awards, personal } from "@/data/content";
-import { GraduationCap, Briefcase, Award } from "lucide-react";
+import { education, awards, personal } from "@/data/content";
+import { GraduationCap, Award } from "lucide-react";
 
 function TimelineItem({
   period,
@@ -89,32 +89,9 @@ export default function CVSection() {
             </div>
           </AnimatedSection>
 
-          {/* Experience + Awards */}
+          {/* Awards */}
           <div className="space-y-16">
             <AnimatedSection delay={0.2}>
-              <div className="flex items-center gap-2 mb-8">
-                <div className="w-8 h-8 rounded-lg bg-accent-50 dark:bg-accent-950/40 flex items-center justify-center">
-                  <Briefcase size={16} className="text-accent-600 dark:text-accent-400" />
-                </div>
-                <h3 className="text-sm font-semibold text-slate-900 dark:text-white uppercase tracking-wider">
-                  Experience
-                </h3>
-              </div>
-              <div>
-                {experience.map((exp, i) => (
-                  <TimelineItem
-                    key={i}
-                    period={exp.period}
-                    title={exp.role}
-                    subtitle={exp.organization}
-                    meta={exp.location}
-                    description={exp.description}
-                  />
-                ))}
-              </div>
-            </AnimatedSection>
-
-            <AnimatedSection delay={0.3}>
               <div className="flex items-center gap-2 mb-6">
                 <div className="w-8 h-8 rounded-lg bg-amber-50 dark:bg-amber-950/30 flex items-center justify-center">
                   <Award size={16} className="text-amber-600 dark:text-amber-400" />

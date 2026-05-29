@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Microscope, BookOpen, Github, Linkedin, GraduationCap, Briefcase, Award } from "lucide-react";
-import { personal, researchInterests, skills, education, experience, awards } from "@/data/content";
+import { Mail, Microscope, BookOpen, Github, Linkedin, GraduationCap, Award } from "lucide-react";
+import { personal, researchInterests, skills, education, awards } from "@/data/content";
 import AnimatedSection from "./AnimatedSection";
 
 function TimelineItem({
@@ -196,27 +196,6 @@ export default function Hero() {
 
           <div className="space-y-14">
             <AnimatedSection delay={0.2}>
-              <div className="flex items-center gap-2 mb-8">
-                <div className="w-7 h-7 rounded-lg bg-accent-50 dark:bg-accent-950/40 flex items-center justify-center">
-                  <Briefcase size={14} className="text-accent-600 dark:text-accent-400" />
-                </div>
-                <h3 className="text-xs font-semibold tracking-widest uppercase text-slate-500 dark:text-slate-400">
-                  Experience
-                </h3>
-              </div>
-              {experience.map((exp, i) => (
-                <TimelineItem
-                  key={i}
-                  period={exp.period}
-                  title={exp.role}
-                  subtitle={exp.organization}
-                  meta={exp.location}
-                  description={exp.description}
-                />
-              ))}
-            </AnimatedSection>
-
-            <AnimatedSection delay={0.3}>
               <div className="flex items-center gap-2 mb-5">
                 <div className="w-7 h-7 rounded-lg bg-amber-50 dark:bg-amber-950/30 flex items-center justify-center">
                   <Award size={14} className="text-amber-600 dark:text-amber-400" />
