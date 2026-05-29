@@ -21,6 +21,14 @@ export const personal = {
   cvPath: "/cv_sepp.pdf",
 };
 
+export const landingKeywords = [
+  "plant breeding",
+  "genomics",
+  "phenomics",
+  "GWAS",
+  "barley",
+];
+
 export const researchInterests = [
   "Genomic Prediction",
   "Plant Intellectual Property",
