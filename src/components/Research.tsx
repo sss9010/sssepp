@@ -16,7 +16,6 @@ export default function Research() {
     <section className="py-16 px-4">
       <div className="max-w-2xl mx-auto">
         <AnimatedSection>
-          <p className="section-label mb-3">Research</p>
           <h1 className="section-heading mb-4">Projects</h1>
           <p className="text-slate-500 dark:text-slate-400 mb-12">
             Cereal genomics, field phenotyping, and computational breeding.
@@ -29,7 +28,7 @@ export default function Research() {
             const status = statusLabel[project.status] ?? statusLabel.ongoing;
             return (
               <AnimatedSection key={project.title} delay={0.1 + i * 0.08}>
-                <article className="group h-full flex flex-col rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/60 p-5 hover:border-accent-200 dark:hover:border-accent-800/60 hover:shadow-lg hover:shadow-slate-100 dark:hover:shadow-slate-900/50 transition-all duration-300">
+                <article className="group h-full flex flex-col rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/60 p-5 hover:border-accent-200 dark:hover:border-accent-800/60 hover:shadow-md transition-all duration-300">
                   <div className="flex items-start justify-between gap-3 mb-4">
                     <div className="w-9 h-9 rounded-xl bg-accent-50 dark:bg-accent-950/50 flex items-center justify-center flex-shrink-0 group-hover:bg-accent-100 dark:group-hover:bg-accent-900/40 transition-colors">
                       <Icon size={16} className="text-accent-600 dark:text-accent-400" />

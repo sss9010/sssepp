@@ -9,7 +9,7 @@ export const personal = {
   tagline:
     "Bridging genomics, phenomics, and computational approaches to develop resilient cereal crops for sustainable agriculture and a changing climate.",
   bio: [
-    "I am a PhD candidate in Plant Breeding and Genetics at Cornell University. My research focuses on developing genomic and phenomic tools to accelerate barley breeding for malting quality and abiotic stress resistance. On the side, I am interested in all intellectual property questions related to plant genetic resources and take care of the all barley breeding programs here in Ithaca, NY.",
+    "I am a PhD candidate in Plant Breeding and Genetics at Cornell University. My research focuses on developing genomic and phenomic tools to accelerate barley breeding for malting quality and abiotic stress resistance. On the side, I am interested in all intellectual property questions related to plant genetic resources and taking care of all barley breeding programs here in Ithaca, NY.",
   ],
   social: {
     googleScholar: "https://scholar.google.com/citations?user=1yHjWyEAAAAJ&hl=en",
@@ -25,8 +25,7 @@ export const landingKeywords = [
   "plant breeding",
   "genomics",
   "phenomics",
-  "GWAS",
-  "barley",
+  "plant IP",
 ];
 
 export const researchInterests = [

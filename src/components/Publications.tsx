@@ -21,7 +21,6 @@ export default function Publications() {
     <section className="py-16 px-4">
       <div className="max-w-2xl mx-auto">
         <AnimatedSection>
-          <p className="section-label mb-3">Publications</p>
           <h1 className="section-heading mb-4">Research Output</h1>
           <p className="text-slate-500 dark:text-slate-400 mb-10">
             Peer-reviewed articles, preprints, and registered varieties in plant genomics and breeding.
@@ -36,7 +35,7 @@ export default function Publications() {
               className={`px-4 py-1.5 rounded-full text-sm font-medium border transition-colors ${
                 filter === year
                   ? "bg-accent-600 border-accent-600 text-white"
-                  : "bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 hover:border-slate-300 dark:hover:border-slate-600 hover:text-slate-900 dark:hover:text-white"
+                  : "bg-transparent border-slate-300 dark:border-slate-700 text-slate-600 dark:text-slate-400 hover:border-slate-500 dark:hover:border-slate-500 hover:text-slate-900 dark:hover:text-white"
               }`}
             >
               {year}
@@ -49,7 +48,7 @@ export default function Publications() {
             const typeStyle = typeLabels[pub.type] ?? typeLabels.journal;
             return (
               <AnimatedSection key={pub.id} delay={0.05 * i}>
-                <article className="group h-full flex flex-col rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/60 p-5 hover:border-accent-200 dark:hover:border-accent-800/60 hover:shadow-lg hover:shadow-slate-100 dark:hover:shadow-slate-900/50 transition-all duration-300">
+                <article className="group h-full flex flex-col rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/60 p-5 hover:border-accent-200 dark:hover:border-accent-800/60 hover:shadow-md transition-all duration-300">
                   <div className="flex items-center justify-between gap-2 mb-3">
                     <div className="flex items-center gap-2">
                       <div className="w-8 h-8 rounded-lg bg-slate-100 dark:bg-slate-800 flex items-center justify-center group-hover:bg-accent-50 dark:group-hover:bg-accent-950/40 transition-colors">
