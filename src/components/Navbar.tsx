@@ -15,7 +15,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <header className="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
+    <header className="bg-white dark:bg-slate-900 dark:border-b dark:border-slate-800">
       <div className="max-w-prose mx-auto px-4 flex items-center justify-between py-3">
         <Link
           href="/"
@@ -41,6 +41,21 @@ export default function Navbar() {
           </ul>
           <ThemeToggle />
         </div>
+      </div>
+
+      {/* Foam wave — light mode only */}
+      <div className="dark:hidden overflow-hidden h-8">
+        <svg
+          viewBox="0 0 1200 32"
+          preserveAspectRatio="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-full h-full block"
+        >
+          <path
+            d="M0,16 C50,28 100,4 150,16 C200,28 250,4 300,16 C350,28 400,4 450,16 C500,28 550,4 600,16 C650,28 700,4 750,16 C800,28 850,4 900,16 C950,28 1000,4 1050,16 C1100,28 1150,4 1200,16 L1200,32 L0,32 Z"
+            fill="#FAE96F"
+          />
+        </svg>
       </div>
     </header>
   );

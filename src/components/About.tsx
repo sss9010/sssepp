@@ -5,11 +5,18 @@ export default function About() {
   return (
     <main className="max-w-prose mx-auto px-4 py-16 space-y-12">
       <div>
-        <h1 className="text-xl font-semibold text-slate-900 dark:text-white mb-4">About</h1>
-        <div className="space-y-4 text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-          {personal.bio.map((para, i) => (
-            <p key={i}>{para}</p>
-          ))}
+        <h1 className="text-xl font-semibold text-slate-900 dark:text-white mb-6">About</h1>
+        <div className="flex gap-5">
+          <img
+            src="/pic1.jpg"
+            alt={personal.name}
+            className="w-24 h-24 rounded-xl object-cover object-top flex-shrink-0"
+          />
+          <div className="space-y-4 text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+            {personal.bio.map((para, i) => (
+              <p key={i}>{para}</p>
+            ))}
+          </div>
         </div>
       </div>
 
