@@ -43,18 +43,59 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Foam wave — light mode only */}
-      <div className="dark:hidden overflow-hidden h-8">
+      {/* Bubbly foam edge — light mode only */}
+      <div className="dark:hidden" aria-hidden>
         <svg
-          viewBox="0 0 1200 32"
+          viewBox="0 0 1200 50"
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-full h-full block"
+          className="w-full h-12 block"
         >
-          <path
-            d="M0,16 C50,28 100,4 150,16 C200,28 250,4 300,16 C350,28 400,4 450,16 C500,28 550,4 600,16 C650,28 700,4 750,16 C800,28 850,4 900,16 C950,28 1000,4 1050,16 C1100,28 1150,4 1200,16 L1200,32 L0,32 Z"
-            fill="#FAE96F"
-          />
+          {/* white foam fills everything */}
+          <rect width="1200" height="50" fill="white" />
+          {/* yellow beer reclaims the bottom strip */}
+          <rect y="28" width="1200" height="22" fill="#FAE96F" />
+          {/* white circles punch back through the yellow — the bubbles */}
+          <circle cx="14"   cy="28" r="14" fill="white" />
+          <circle cx="40"   cy="28" r="17" fill="white" />
+          <circle cx="70"   cy="28" r="13" fill="white" />
+          <circle cx="98"   cy="28" r="18" fill="white" />
+          <circle cx="130"  cy="28" r="14" fill="white" />
+          <circle cx="158"  cy="28" r="17" fill="white" />
+          <circle cx="190"  cy="28" r="20" fill="white" />
+          <circle cx="224"  cy="28" r="13" fill="white" />
+          <circle cx="252"  cy="28" r="16" fill="white" />
+          <circle cx="280"  cy="28" r="14" fill="white" />
+          <circle cx="310"  cy="28" r="19" fill="white" />
+          <circle cx="344"  cy="28" r="12" fill="white" />
+          <circle cx="370"  cy="28" r="17" fill="white" />
+          <circle cx="402"  cy="28" r="15" fill="white" />
+          <circle cx="432"  cy="28" r="18" fill="white" />
+          <circle cx="464"  cy="28" r="13" fill="white" />
+          <circle cx="492"  cy="28" r="20" fill="white" />
+          <circle cx="528"  cy="28" r="14" fill="white" />
+          <circle cx="558"  cy="28" r="16" fill="white" />
+          <circle cx="588"  cy="28" r="13" fill="white" />
+          <circle cx="618"  cy="28" r="18" fill="white" />
+          <circle cx="650"  cy="28" r="15" fill="white" />
+          <circle cx="680"  cy="28" r="17" fill="white" />
+          <circle cx="712"  cy="28" r="20" fill="white" />
+          <circle cx="748"  cy="28" r="12" fill="white" />
+          <circle cx="774"  cy="28" r="16" fill="white" />
+          <circle cx="804"  cy="28" r="14" fill="white" />
+          <circle cx="834"  cy="28" r="19" fill="white" />
+          <circle cx="868"  cy="28" r="13" fill="white" />
+          <circle cx="896"  cy="28" r="17" fill="white" />
+          <circle cx="928"  cy="28" r="15" fill="white" />
+          <circle cx="960"  cy="28" r="20" fill="white" />
+          <circle cx="996"  cy="28" r="12" fill="white" />
+          <circle cx="1022" cy="28" r="16" fill="white" />
+          <circle cx="1052" cy="28" r="14" fill="white" />
+          <circle cx="1082" cy="28" r="19" fill="white" />
+          <circle cx="1116" cy="28" r="13" fill="white" />
+          <circle cx="1144" cy="28" r="17" fill="white" />
+          <circle cx="1176" cy="28" r="15" fill="white" />
+          <circle cx="1200" cy="28" r="16" fill="white" />
         </svg>
       </div>
     </header>
