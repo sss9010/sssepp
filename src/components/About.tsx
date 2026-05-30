@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { personal, researchInterests, skills, education, awards } from "@/data/content";
 import { GraduationCap, Award } from "lucide-react";
 
@@ -8,11 +7,10 @@ export default function About() {
       <div>
         <h1 className="text-xl font-semibold text-slate-900 dark:text-white mb-6">About</h1>
         <div className="flex gap-5">
-          <Image
-            src="/pic1.jpg"
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/pic1.jpg`}
             alt={personal.name}
-            width={96}
-            height={96}
             className="w-24 h-24 rounded-xl object-cover object-top flex-shrink-0"
           />
           <div className="space-y-4 text-sm text-slate-600 dark:text-slate-400 leading-relaxed">

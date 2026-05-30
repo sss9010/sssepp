@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
   },
   trailingSlash: true,
   basePath: "/sssepp",
+  env: {
+    NEXT_PUBLIC_BASE_PATH: "/sssepp",
+  },
 };
 
 export default nextConfig;
