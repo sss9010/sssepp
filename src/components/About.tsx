@@ -11,7 +11,7 @@ export default function About() {
           <img
             src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/pic1.jpg`}
             alt={personal.name}
-            className="w-36 h-36 rounded-xl object-cover object-[center_35%] flex-shrink-0"
+            className="w-36 h-36 rounded-xl object-cover object-[center_50%] flex-shrink-0"
           />
           <div className="space-y-4 text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
             {personal.bio.map((para, i) => (
